@@ -113,3 +113,29 @@ header.hero {
 .book-btn:hover {
     background: #005f8a;
 }
+
+/* --- MOBILE FIX FOR HEADER --- */
+@media (max-width: 768px) {
+
+    .header-left,
+    .header-right {
+        position: static;     /* removes absolute positioning */
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .header-right button,
+    .header-right .book-online-btn {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .header-left {
+        margin-top: 20px;
+    }
+
+    .hero {
+        padding-top: 60px; /* extra spacing so nothing crowds the logo */
+    }
+}
+
