@@ -140,8 +140,8 @@ header.hero {
 }
 
 /* Mobile logo size */
-@media (max-width: 760px) {
+@media (max-width: 730px) {
     .logo {
-        width: 360px;   /* adjust this until it looks perfect */
+        width: 330px;   /* adjust this until it looks perfect */
     }
 }
